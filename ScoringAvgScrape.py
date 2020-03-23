@@ -16,7 +16,10 @@ for row in table.tbody.findAll('tr'):
         #playerData.append("".join(col.text.split()))
         playerData.append(col.text)
     data.append(playerData)
-#print(data[0])
+
+
+
+print(data[0])
 #for row in data:
 #    0:9
 #for row in table.findAll('td', attrs = {'class':'player-name'}):
