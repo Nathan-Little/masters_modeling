@@ -9,6 +9,7 @@ table = soup.find('table', attrs = {'id':'statsTable'})
 data = []
 headings = soup.findAll('th')
 print(headings)
+
 for row in table.tbody.findAll('tr'):
     playerData = []
     td = row.findAll('td')
@@ -17,9 +18,8 @@ for row in table.tbody.findAll('tr'):
         playerData.append(col.text)
     data.append(playerData)
 
-
-
 print(data[0])
+
 #for row in data:
 #    0:9
 #for row in table.findAll('td', attrs = {'class':'player-name'}):
@@ -28,8 +28,6 @@ print(data[0])
     # player name
     #playerName = row.a.text
     #playerData.append(playerName)
-
-
     #playerName, playerRank, Rounds, Avg., Total Strokes, Total Adjustment, Total Rounds
     ## for every player, add a row of data to the list
     ## scrape from site, add to playerData, add playerData to data
