@@ -1,5 +1,5 @@
 # Masters Modeling
-Modeling the Masters for MAT 210
+Modeling the Masters 
 
 ### Authors
 Chris Amoroso, Griffin Azrak, Nathan Little
